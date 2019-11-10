@@ -1,8 +1,13 @@
-public static main() {
+#include<iostream>
+using namespace std;
+
+int main() {
 	
-	printf("Hello World");
-	printf("Hello Again");
-	printf("Let's get this bread.");
+	
+	
+	cout << ("Hello World");
+	cout << ("Hello Again");
+	cout << ("Let's get this bread.");
 	//Ends program.
 	return 0;
 }

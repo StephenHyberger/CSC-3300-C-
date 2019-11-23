@@ -7,4 +7,4 @@ all : objects\Driver.o
 objects\Driver.o: sources\Driver.cpp
 	g++ $(CXXFLAGS) $(CPPFLAGS) $(LDLIBS) -c sources\Driver.cpp -o objects\Driver.o  
 clean :  
-	del Driver.exe objects\Driver.o
+	del *.exe objects\*.o

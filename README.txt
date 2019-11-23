@@ -9,6 +9,6 @@ Operating System:
 Windows 10
 
 Programming Language Used:
-Python 2.7
+Python 3.7
 
 Instructions:

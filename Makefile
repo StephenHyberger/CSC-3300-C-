@@ -1,5 +1,5 @@
-CPP_CONNECTOR_DIR = Connector\C++
-CPPFLAGS = -I $(CPP_CONNECTOR_DIR)\include -L $(CPP_CONNECTOR_DIR)\lib
+CPP_CONNECTOR_DIR = "C:\Program Files\MySQL\Connector C++ 8.0
+CPPFLAGS = -I $(CPP_CONNECTOR_DIR)\include" -L $(CPP_CONNECTOR_DIR)\lib64"
 LDLIBS = -lmysqlcppconn8
 CXXFLAGS = -std=c++11
 all : objects\Driver.o

@@ -1,5 +1,7 @@
 create database assignment4;
 
+use assignment4;
+
 create table department (dept_name varchar(20), building varchar(15), budget numeric(12,2) check (budget > 0), primary key (dept_name));
 
 create table course (course_id varchar(8), title varchar(50), dept_name varchar(20), credits numeric(2,0) check (credits >0), primary key (course_id), foreign key (dept_name) references department(dept_name) on delete set null);

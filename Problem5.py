@@ -1,5 +1,5 @@
 #Author: Stephen Hyberger
-#File: asg4p5.py
+#File: Problem5.py
 #Date: 11.24.2019
 #Purpose: Demonstrates removal of a table, course, by a strong user through code imbeded in python.
 

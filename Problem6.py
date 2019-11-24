@@ -1,5 +1,5 @@
 #Author: Stephen Hyberger
-#File: asg4p6.py
+#File: Problem6.py
 #Date: 11.24.2019
 #Purpose: Demonstrating error handling with SQL code embedded inside python code.
 #Based on: https://dev.mysql.com/doc/connector-python/en/connector-python-api-errors-error.html

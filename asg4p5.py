@@ -5,12 +5,12 @@
 
 import mysql.connector
 
-cnx = mysql.connector.connect(user='strong',
+server = mysql.connector.connect(user='strong',
 							password='password3',
 							host='localhost',
 							database='assignment4')
 
-cursor = cnx.cursor()
+cursor = server.cursor()
 query = ('SHOW TABLES')
 cursor.execute(query)
 
@@ -31,4 +31,4 @@ for(item) in cursor:
 	print(item)
 
 cursor.close()
-cnx.close()
+server.close()

@@ -1,4 +1,5 @@
 #Author: Kristen Forte
+#Edited: Stephen Hyberger
 #File: Problem4.py
 #Date: 11.24.2019
 #Purpose: Demonstrates adding a column to a table by a strong user through code imbeded in python.
@@ -17,11 +18,19 @@ strong_add = ('ALTER TABLE instructor ADD COLUMN office_no VARCHAR(10) AFTER sal
 
 strong_show = ('SELECT * FROM instructor');
 
+strong_cursor.execute(strong_show)
+
+print()
+for (ID, name, dept_name, salary) in strong_cursor:
+	print('{} {} {} {}'.format(ID, name, dept_name, salary))
+
+
 strong_cursor.execute(strong_add)
 
 strong_cursor.execute(strong_show)
 
-for (ID, name, dept_name, salary, office_no) in cursor:
+print()
+for (ID, name, dept_name, salary, office_no) in strong_cursor:
 	print('{} {} {} {} {}'.format(ID, name, dept_name, salary, office_no))
 
 strong_cursor.close()
